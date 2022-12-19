@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Page Title</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+/* Style the body */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+/* Header/logo Title */
+.header {
+  padding: 80px;
+  text-align: center;
+  background: #6c7358;
+  color: white;
+}
+
+/* Increase the font size of the heading */
+.header h1 {
+  font-size: 40px;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  background-color: #212b24;
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: #cccccc;
+  color: black;
+}
+
+/* Column container */
+.row {  
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+  -ms-flex: 40%; /* IE10 */
+  flex: 15%;
+  background-color: #adb3af;
+  padding: 50px;
+}
+
+/* Main column */
+.main {   
+  -ms-flex: 70%; /* IE10 */
+  flex: 70%;
+  background-color: white;
+  padding: 30px;
+}
+
+/* Fake image, just for this example */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #6c7358;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+  .row {   
+    flex-direction: column;
+  }
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<div class="header">
+<hr>
+    <h1> Arctic Monkeys </h1> 
+  <hr>
+</div>
+
+<div class="navbar">
+  <a href="index.html">Hoofdpagina</a>
+    <a href="Bandleden.html">De Bandleden</a>
+  <a href="Feitjes.html">Feitjes</a>
+  <a href="Albums.html">Over de Albums</a>
+  <a href="Prijzen.html">Prijzen</a>
+ <a href="https://arcticmonkeys.com/videos" class="right">Luister hier</a> 
+</div>
+
+
+
+<div class="row">
+  <div class="side">
+    <h2>Gloednieuwe album van de band:</h2>
+    
+ <img src="https://upload.wikimedia.org/wikipedia/en/5/5e/The_Car_by_Arctic_Monkeys_album.jpg" alt="The Car" width="240" height="240"> 
+  <p><em>The Car (2022)</em> </p>
+    <h3>Eerdere albums:</h3>
+<img src="https://upload.wikimedia.org/wikipedia/en/8/88/Whatever_People_Say_I_Am%2C_That%27s_What_I%27m_Not_%282006_Arctic_Monkeys_album%29.jpg" alt="Whatever People Say I Am, That's What I'm Not" width="240" height="240">
+<p><em>Whatever People Say I Am, That's What I'm Not (2006)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/a/ae/Favourite_Worst_Nightmare.jpg" alt="Favourite Worst Nightmare" width="240" height="240">
+<p><em> Favourite Worst Nightmare (2007)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/2/20/Arcticmonkeys-humbug.jpg" alt="Humbug" width="240" height="240">
+<p><em>Humbug (2009)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/f/f9/Suckitandsee.jpg" alt="Suck It and See" width="240" height="240">
+<p><em>Suck It and See (2011)</em> </p>
+
+   <img src="https://upload.wikimedia.org/wikipedia/commons/e/e7/%22AM%22_%28Arctic_Monkeys%29.jpg" alt="AM" width="240" height="240">
+   <p><em>AM (2013)</em> </p>
+
+<img src="https://upload.wikimedia.org/wikipedia/en/3/38/Arctic_Monkeys_%E2%80%93_Tranquility_Base_Hotel_%26_Casino.png" alt="Tranquility Base Hotel & Casino" width="240" height="240"> 
+<p><em>Tranquility Base Hotel & Casino (2018)</em> </p>
+  </div>
+  <div class="main">
+    <h2>Het begin van de Arctic Monkeys</h2>
+    <h5>8 novermber 2022</h5>
+<img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Arctic_Monkeys_live.jpg" alt="Alex turner (rechts) en Andy Nicholson in Newcastle Academy in january 2006" width="600" height="450">
+    <p>Alex turner (rechts) en Andy Nicholson in Newcastle Academy in january 2006 </p>
+    <p>Alex Turner en Jamie Cook begonnen in 2001 met het spelen van muziek toen ze beiden een gitaar als kerstcadeau ontvingen. Turner en Cook zaten op Stockbridge High School, maar verlieten deze school toen ze zestien waren. Ze ontmoette het duo Matt Helders en bassist Andy Nicholson, met wie ze in 2002 een band vormden. Tijdens het oefenen was ook Glyn Jones aanwezig, vriend en de eerste zanger van de groep. De eerste stappen tot een band waren lang niet serieus: nog niemand was bekwaam met een instrument en het eerste nummer heette <em> Matt Dave Rock Song</em>, door de band later omschreven als 'rotzooi'. <br><br>
+Het vijftal begon met het oefenen in de garage van Turner onder de naam <em>Bang Bang</em>. Jones stapte na een paar maanden uit de band, waarop Turner besloot te gaan zingen. Later werd ook de bandnaam veranderd in Arctic Monkeys. Na een jaar lang oefenen en nummers schrijven vond in juni 2003 het eerste optreden plaats in The Grapes, een pub in Sheffield. In augustus 2003 had Arctic Monkeys vier nummers; tijdens concerten werd de set gevuld met onder andere The Vines- en The White Stripes-covers.  <br><br>
+Tijdens deze optredens werden er gratis demo's uitgedeeld, vaak door de bandleden zelf gebrand. Dit bleek succesvol: fans plaatsten de nummers op het internet, waardoor het bereik van de band nog groter werd. De band zelf had hier geen problemen mee: "We maakten deze demo's niet om geld te verdienen. We gaven ze toch al gratis weg tijdens concerten - een betere manier voor mensen om ze te horen. Tevens maakte het ook de shows beter, omdat iedereen de teksten kon meezingen",. Zelf hadden de bandleden nooit iets op het internet geplaatst. Een nieuw hoogtepunt kwam in maart 2005 toen ze de lokale bar The Harley uitverkochte, twee maanden voor de uitgave van een officiële plaat. Deze ep was <em>Five Minutes with Arctic Monkeys</em>, bestaande uit twee nummers en gelimiteerd tot 1500 kopieën.
+</p>
+    <br>
+    <h2>Eerste herkenning</h2>
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3b/ArcticMonkeysRAH070618_%2819%29_%2828799629968%29.jpg" alt="De huidige band" width="600" height="350">
+ <p>Optreden van de band in 2018 bij Royal Albert Hall</p>
+    <p>In april verkreeg Arctic Monkeys hun eerste artikel in de nationale pers; de <em>Daily Star </em> omschreef ze als "de meest opwindende band die dit jaar verschijnt". Er ontstond een jacht van platenmaatschappijen op de band, maar lange tijd weigerden de bandleden een contract te ondertekenen. In juni 2005 tekende Arctic Monkeys toch een platencontract bij Domino Records. Die zomer speelde de band voor het eerst op de Reading en Leeds Festivals. De aandacht van de pers nam toe; de <em>British Broadcasting Corporation (BBC)</em> noemde ze  "alles wat je laat realiseren dat je niets met je armzalige leven hebt gedaan. Ah, om jong en getalenteerd te zijn". De band werd door de BBC omschreven als de 'meest gehypete band van het jaar', terwijl <em>The Independent</em> ze 'UK's Next Really Big Thing' noemde.</p> 
+    
+   <br>
+ 
+   <html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #3f5244;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #adb3af;
+}
+</style>
+</head>
+<body>
+
+
+
+
+
+
+
+  </div>
+</div>
+<html>
+<body>
+
+
+</body>
+</html>
+
+
+<div class="footer">
+
+</div>
+
+</body>
+</html>
+
